@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="RatingBar" customModule="RatingBar_Chtar" customModuleProvider="target">
+            <connections>
+                <outlet property="rate1" destination="Zvm-Kd-80T" id="R7y-ej-ThU"/>
+                <outlet property="rate2" destination="ETx-S5-5Dw" id="OQk-NW-wyZ"/>
+                <outlet property="rate3" destination="HyS-Mo-mhH" id="Fnf-LP-tCa"/>
+                <outlet property="rate4" destination="vFo-su-Qha" id="NcF-DB-cDn"/>
+                <outlet property="rate5" destination="kGD-WO-kU9" id="cey-5T-gfn"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="YKh-dP-uIT">
+            <rect key="frame" x="0.0" y="0.0" width="353" height="64"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" restorationIdentifier="rate3" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HyS-Mo-mhH">
+                    <rect key="frame" x="144.5" y="0.0" width="64" height="64"/>
+                    <state key="normal" backgroundImage="star1"/>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" restorationIdentifier="rate2" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ETx-S5-5Dw">
+                    <rect key="frame" x="79" y="0.0" width="64" height="64"/>
+                    <state key="normal" backgroundImage="star1"/>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" restorationIdentifier="rate4" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vFo-su-Qha">
+                    <rect key="frame" x="213.5" y="0.0" width="64" height="64"/>
+                    <state key="normal" backgroundImage="star1"/>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" restorationIdentifier="rate5" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kGD-WO-kU9">
+                    <rect key="frame" x="284.5" y="0.0" width="64" height="64"/>
+                    <state key="normal" backgroundImage="star1"/>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" restorationIdentifier="rate1" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zvm-Kd-80T">
+                    <rect key="frame" x="12" y="0.0" width="64" height="64"/>
+                    <state key="normal" backgroundImage="star1"/>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="vFo-su-Qha" firstAttribute="centerY" secondItem="YKh-dP-uIT" secondAttribute="centerY" id="20h-Br-xU3"/>
+                <constraint firstItem="kGD-WO-kU9" firstAttribute="width" secondItem="YKh-dP-uIT" secondAttribute="height" multiplier="1:1" id="7ca-Uf-E2A"/>
+                <constraint firstItem="kGD-WO-kU9" firstAttribute="centerY" secondItem="YKh-dP-uIT" secondAttribute="centerY" id="IaB-jt-yih"/>
+                <constraint firstItem="ETx-S5-5Dw" firstAttribute="width" secondItem="YKh-dP-uIT" secondAttribute="height" multiplier="1:1" id="IhG-Hc-zIg"/>
+                <constraint firstItem="vFo-su-Qha" firstAttribute="width" secondItem="YKh-dP-uIT" secondAttribute="height" multiplier="1:1" id="ItW-kY-LKK"/>
+                <constraint firstItem="vFo-su-Qha" firstAttribute="height" secondItem="YKh-dP-uIT" secondAttribute="height" id="JXx-kH-unT"/>
+                <constraint firstItem="ETx-S5-5Dw" firstAttribute="height" secondItem="YKh-dP-uIT" secondAttribute="height" id="NZq-1N-CWV"/>
+                <constraint firstItem="kGD-WO-kU9" firstAttribute="centerX" secondItem="YKh-dP-uIT" secondAttribute="centerX" multiplier="1.8" constant="-1.1999999999999886" id="O1d-Sg-uim"/>
+                <constraint firstItem="HyS-Mo-mhH" firstAttribute="width" secondItem="YKh-dP-uIT" secondAttribute="height" multiplier="1:1" id="QqD-d9-3Sa"/>
+                <constraint firstItem="ETx-S5-5Dw" firstAttribute="centerX" secondItem="YKh-dP-uIT" secondAttribute="centerX" multiplier="0.63" id="Rhg-I7-2Fh"/>
+                <constraint firstItem="kGD-WO-kU9" firstAttribute="height" secondItem="YKh-dP-uIT" secondAttribute="height" id="Vyf-um-bWb"/>
+                <constraint firstItem="ETx-S5-5Dw" firstAttribute="centerY" secondItem="YKh-dP-uIT" secondAttribute="centerY" id="W42-kE-UCU"/>
+                <constraint firstItem="Zvm-Kd-80T" firstAttribute="height" secondItem="YKh-dP-uIT" secondAttribute="height" id="X4k-RV-ZzK"/>
+                <constraint firstItem="HyS-Mo-mhH" firstAttribute="centerX" secondItem="YKh-dP-uIT" secondAttribute="centerX" id="a64-2m-7s5"/>
+                <constraint firstItem="HyS-Mo-mhH" firstAttribute="height" secondItem="YKh-dP-uIT" secondAttribute="height" id="gvm-ly-82Y"/>
+                <constraint firstItem="Zvm-Kd-80T" firstAttribute="width" secondItem="YKh-dP-uIT" secondAttribute="height" multiplier="1:1" id="iPk-Dy-pco"/>
+                <constraint firstItem="Zvm-Kd-80T" firstAttribute="centerX" secondItem="YKh-dP-uIT" secondAttribute="centerX" multiplier="0.25" id="nG3-ze-BvT"/>
+                <constraint firstItem="vFo-su-Qha" firstAttribute="centerX" secondItem="YKh-dP-uIT" secondAttribute="centerX" multiplier="1.39" id="t6c-Aj-afe"/>
+                <constraint firstItem="Zvm-Kd-80T" firstAttribute="centerY" secondItem="YKh-dP-uIT" secondAttribute="centerY" id="wfK-gJ-I4W"/>
+                <constraint firstItem="HyS-Mo-mhH" firstAttribute="centerY" secondItem="YKh-dP-uIT" secondAttribute="centerY" id="yyL-Qn-6bv"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="-124.5" y="-491"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="star1" width="11" height="11"/>
+    </resources>
+</document>
