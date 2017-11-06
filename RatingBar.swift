@@ -11,14 +11,6 @@
 import UIKit
 
 
-protocol RatingBarDelegate {
-    
-    func RatingBar(_ ratingBar: RatingBar, didChangeValue value : Int)
-
-    
-}
-
-
 
 
 @IBDesignable class RatingBar: UIView {

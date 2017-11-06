@@ -17,6 +17,8 @@
 		8184F8711FB0C9A600B4E9C2 /* star3.png in Resources */ = {isa = PBXBuildFile; fileRef = 8184F86F1FB0C8C400B4E9C2 /* star3.png */; };
 		8184F8721FB0C9A800B4E9C2 /* star1.png in Resources */ = {isa = PBXBuildFile; fileRef = 8184F86E1FB0C8BE00B4E9C2 /* star1.png */; };
 		8184F8731FB0C9AB00B4E9C2 /* star2.png in Resources */ = {isa = PBXBuildFile; fileRef = 8184F86D1FB0C8AC00B4E9C2 /* star2.png */; };
+		8184F8791FB0D91900B4E9C2 /* LICENSE.MIT in Resources */ = {isa = PBXBuildFile; fileRef = 8184F8781FB0D91900B4E9C2 /* LICENSE.MIT */; };
+		8184F87B1FB0D97500B4E9C2 /* RatingBarDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8184F87A1FB0D97500B4E9C2 /* RatingBarDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +37,8 @@
 		8184F8751FB0CB3C00B4E9C2 /* Screen Shot 2017-11-06 at 6.51.17 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2017-11-06 at 6.51.17 PM.png"; sourceTree = "<group>"; };
 		8184F8761FB0CB6100B4E9C2 /* Screen Shot 2017-11-06 at 6.54.25 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2017-11-06 at 6.54.25 PM.png"; sourceTree = "<group>"; };
 		8184F8771FB0D24100B4E9C2 /* Screen Shot 2017-11-06 at 7.23.36 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2017-11-06 at 7.23.36 PM.png"; sourceTree = "<group>"; };
+		8184F8781FB0D91900B4E9C2 /* LICENSE.MIT */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE.MIT; sourceTree = "<group>"; };
+		8184F87A1FB0D97500B4E9C2 /* RatingBarDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingBarDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +55,7 @@
 		816F906B1F1E50D40055D408 = {
 			isa = PBXGroup;
 			children = (
+				8184F8781FB0D91900B4E9C2 /* LICENSE.MIT */,
 				816F90941F1E56360055D408 /* screen shot  */,
 				816F90891F1E50D90055D408 /* RatingBar */,
 				816F90761F1E50D40055D408 /* RatingBar-Chtar */,
@@ -87,6 +92,7 @@
 				8184F86D1FB0C8AC00B4E9C2 /* star2.png */,
 				8184F86B1FB0C85B00B4E9C2 /* RatingBar.swift */,
 				8184F86A1FB0C85B00B4E9C2 /* RatingBar.xib */,
+				8184F87A1FB0D97500B4E9C2 /* RatingBarDelegate.swift */,
 			);
 			name = RatingBar;
 			sourceTree = "<group>";
@@ -167,6 +173,7 @@
 				8184F8701FB0C97100B4E9C2 /* RatingBar.xib in Resources */,
 				8184F8721FB0C9A800B4E9C2 /* star1.png in Resources */,
 				816F907F1F1E50D40055D408 /* Assets.xcassets in Resources */,
+				8184F8791FB0D91900B4E9C2 /* LICENSE.MIT in Resources */,
 				816F907D1F1E50D40055D408 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -181,6 +188,7 @@
 				8184F86C1FB0C85C00B4E9C2 /* RatingBar.swift in Sources */,
 				816F907A1F1E50D40055D408 /* ViewController.swift in Sources */,
 				816F90781F1E50D40055D408 /* AppDelegate.swift in Sources */,
+				8184F87B1FB0D97500B4E9C2 /* RatingBarDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
