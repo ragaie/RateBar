@@ -6,6 +6,8 @@
 //  Copyright © 2017 Ragaie alfy. All rights reserved.
 //
 
+
+//https://github.com/ragaie/RateBar.git
 import UIKit
 
 
