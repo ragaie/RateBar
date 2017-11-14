@@ -8,6 +8,9 @@
 
 
 //https://github.com/ragaie/RateBar.git
+// pod repo update --verbose
+
+///pod trunk push RateBar.podspec
 import UIKit
 
 
