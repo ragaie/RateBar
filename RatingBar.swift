@@ -29,7 +29,7 @@ import UIKit
     @IBOutlet weak var rate5: UIButton!
     public var ID : String!
     
-    var delegate : RatingBarDelegate!
+    public var delegate : RatingBarDelegate!
     private var rateImage : UIImage! =  UIImage.init(named: "star3")
     private var halfrateImage : UIImage! =  UIImage.init(named: "star2")
     
