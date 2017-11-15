@@ -1,16 +1,14 @@
 //
 //  RatingBar.swift
-//  SomeWorkTest
+
 //
-//  Created by Ragaie alfy on 7/10/17.
+//  Created by Ragaie alfy on 7/10/17.Egypt ()+201113938736)
 //  Copyright © 2017 Ragaie alfy. All rights reserved.
 //
 
 
 //https://github.com/ragaie/RateBar.git
-// pod repo update --verbose
 
-///pod trunk push RateBar.podspec
 import UIKit
 
 
@@ -30,10 +28,10 @@ import UIKit
     public var ID : String!
     
     public var delegate : RatingBarDelegate!
-    private var rateImage : UIImage! =  UIImage.init(named: "star3")
-    private var halfrateImage : UIImage! =  UIImage.init(named: "star2")
+    private var rateImage : UIImage! //=  UIImage.init(named: "star3")
+    private var halfrateImage : UIImage! //=  UIImage.init(named: "star2")
     
-    private var unrateImage : UIImage! =  UIImage.init(named: "star1")
+    private var unrateImage : UIImage! //=  UIImage.init(named: "star1")
     
     
     private var allRatingButton : [UIButton]! = []
@@ -73,6 +71,16 @@ import UIKit
         
         // custom initialization logic
         
+        // initalize images
+        
+        
+        rateImage =    UIImage(named: "star3", in: bundle,compatibleWith: nil)!
+        halfrateImage =    UIImage(named: "star2", in: bundle,compatibleWith: nil)!
+        
+        unrateImage =    UIImage(named: "star1", in: bundle,compatibleWith: nil)!
+        
+        
+        
     }
 
     func initActionAndDelegete()  {
@@ -97,13 +105,9 @@ import UIKit
         }
         print(rateValue)
         if rateValue  <= 0 {
-            
-            
             for item in allRatingButton {
                 item.setBackgroundImage(unrateImage, for: .normal)
-                
             }
-            
         }
         else {
 

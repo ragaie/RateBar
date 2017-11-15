@@ -16,8 +16,8 @@ class ViewController: UIViewController,RatingBarDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
     
-       //ratingbar.setRatingValue(rateValue: 4.2)
-        ratingbar.delegate = self
+       ratingbar.setRatingValue(rateValue: 3.2)
+       // ratingbar.delegate = self
     }
 
     override func didReceiveMemoryWarning() {
