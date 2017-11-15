@@ -8,7 +8,7 @@
 
 import Foundation
 
-protocol RatingBarDelegate {
+public protocol RatingBarDelegate {
     
     func RatingBar(_ ratingBar: RatingBar, didChangeValue value : Int)
     

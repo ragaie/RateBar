@@ -16,7 +16,7 @@ import UIKit
 
 
 
-@IBDesignable class RatingBar: UIView {
+@IBDesignable open class RatingBar: UIView {
 
    
     @IBOutlet weak var rate1: UIButton!
@@ -39,14 +39,14 @@ import UIKit
     private var allRatingButton : [UIButton]! = []
 
     //MARK: Initializers
-    override init(frame : CGRect) {
+    override public init(frame : CGRect) {
         super.init(frame : frame)
         initSubviews()
     }
     
     
     
-    required init?(coder aDecoder: NSCoder) {
+    required public init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
         initSubviews()
         initActionAndDelegete()
@@ -78,17 +78,17 @@ import UIKit
     func initActionAndDelegete()  {
         
         
-        rate1.addTarget(self, action: "changeRating:", for: .touchUpInside)
-        rate2.addTarget(self, action: "changeRating:", for: .touchUpInside)
+        rate1.addTarget(self, action: #selector(RatingBar.changeRating(_:)), for: .touchUpInside)
+        rate2.addTarget(self, action: #selector(RatingBar.changeRating(_:)), for: .touchUpInside)
         
-        rate3.addTarget(self, action: "changeRating:", for: .touchUpInside)
+        rate3.addTarget(self, action: #selector(RatingBar.changeRating(_:)), for: .touchUpInside)
         
-        rate4.addTarget(self, action: "changeRating:", for: .touchUpInside)
-        rate5.addTarget(self, action: "changeRating:", for: .touchUpInside)
-        
+        rate4.addTarget(self, action: #selector(RatingBar.changeRating(_:)), for: .touchUpInside)
+        rate5.addTarget(self, action: #selector(RatingBar.changeRating(_:)), for: .touchUpInside)
+
     }
     
-    func setRatingValue(rateValue : Double){
+   open func setRatingValue(rateValue : Double){
         //rate value from 1 to 5
         
         for item in allRatingButton{
@@ -147,7 +147,7 @@ import UIKit
     
     
     
-    func changeRating(_ sender : UIButton){
+  @objc open func changeRating(_ sender : UIButton){
     // if sender.tag == 0 {
         switch sender.restorationIdentifier! {
         case "rate1":
