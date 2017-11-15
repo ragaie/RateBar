@@ -123,9 +123,9 @@ import UIKit
             
             var stringNumber = String(rate).split(separator: ".")
             
-            var firstNumber : Int! = Int(stringNumber[0])
+            let firstNumber : Int! = Int(stringNumber[0])
             
-            var secandNumber : Int! = Int(stringNumber[1])
+            let secandNumber : Int! = Int(stringNumber[1])
             
             if firstNumber > 1 {
                 for  i  in  0...firstNumber - 1{
