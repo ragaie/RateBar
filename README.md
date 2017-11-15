@@ -6,7 +6,7 @@ you need to create view with this custom class view
 create outlet of this class
 
  ![alt tag](https://github.com/ragaie/RateBar/blob/master/Screen%20Shot%202017-11-06%20at%207.23.36%20PM.png)
-
+ ![alt tag](https://github.com/ragaie/RateBar/blob/master/Screen%20Shot%202017-11-15%20at%201.56.50%20PM.png)
 
 # you can set value or used to get user value 
  ![alt tag](https://github.com/ragaie/RateBar/blob/master/Screen%20Shot%202017-11-06%20at%206.51.17%20PM.png)
@@ -14,3 +14,8 @@ create outlet of this class
 # result it should be : --
 
  ![alt tag](https://github.com/ragaie/RateBar/blob/master/Screen%20Shot%202017-11-06%20at%206.54.25%20PM.png)
+
+
+# you use it  by cocaPod 
+
+pod 'RateBar', or  pod 'RateBar' , '~> 1.3' 
