@@ -20,7 +20,7 @@ or you get rate value by  #  .rateValue
 
 # you use it  by cocaPod 
 
-pod repo update --verbose \n
-pod 'RateBar', \n
-or  pod 'RateBar' ,'~> 1.3' , \n
-or  pod 'RateBar' , '~> 1.3.0' \n
+pod repo update --verbose 
+pod 'RateBar', 
+
+or  pod 'RateBar' , '~> 1.3.0' 
