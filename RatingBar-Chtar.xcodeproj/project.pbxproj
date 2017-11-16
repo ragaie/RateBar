@@ -37,6 +37,7 @@
 		8184F8781FB0D91900B4E9C2 /* LICENSE.MIT */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE.MIT; sourceTree = "<group>"; };
 		8184F87A1FB0D97500B4E9C2 /* RatingBarDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingBarDelegate.swift; sourceTree = "<group>"; };
 		8184F87C1FB0DA7900B4E9C2 /* RatingBar.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RatingBar.xib; sourceTree = "<group>"; };
+		81C0C54A1FBDB39000969BE8 /* rate bar.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = "rate bar.mov"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +97,7 @@
 		816F90941F1E56360055D408 /* screen shot  */ = {
 			isa = PBXGroup;
 			children = (
+				81C0C54A1FBDB39000969BE8 /* rate bar.mov */,
 				815C56D81FBC635B00787D7A /* Screen Shot 2017-11-15 at 1.56.50 PM.png */,
 				8184F8771FB0D24100B4E9C2 /* Screen Shot 2017-11-06 at 7.23.36 PM.png */,
 				8184F8761FB0CB6100B4E9C2 /* Screen Shot 2017-11-06 at 6.54.25 PM.png */,
