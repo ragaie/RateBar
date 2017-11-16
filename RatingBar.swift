@@ -28,6 +28,7 @@ import UIKit
     public var ID : String!
     
     public var delegate : RatingBarDelegate!
+    public var rateValue : Int! = 0
     private var rateImage : UIImage! //=  UIImage.init(named: "star3")
     private var halfrateImage : UIImage! //=  UIImage.init(named: "star2")
     
@@ -103,7 +104,7 @@ import UIKit
             
             item.isUserInteractionEnabled = false
         }
-        print(rateValue)
+        //print(rateValue)
         if rateValue  <= 0 {
             for item in allRatingButton {
                 item.setBackgroundImage(unrateImage, for: .normal)
@@ -112,7 +113,7 @@ import UIKit
         else {
 
         var rate = rateValue
-        
+        self.rateValue = Int(rate)
         
         if rate > 5 {
             
@@ -166,6 +167,8 @@ import UIKit
             sender.tag = 1
             if delegate != nil{
                 delegate.RatingBar(self, didChangeValue: 1)
+                rateValue = 1
+
             }
             break
         case "rate2":
@@ -183,6 +186,8 @@ import UIKit
           
             if delegate != nil {
                 delegate.RatingBar(self, didChangeValue: 2)
+                rateValue = 2
+
             }
             break
         case "rate3":
@@ -199,6 +204,8 @@ import UIKit
             }
             if delegate != nil {
              delegate.RatingBar(self, didChangeValue: 3)
+                rateValue = 3
+
             }
             break
         case "rate4":
@@ -215,6 +222,7 @@ import UIKit
             }
             if delegate != nil {
                 delegate.RatingBar(self, didChangeValue: 4)
+                rateValue = 4
             }
             break
         case "rate5":
@@ -231,6 +239,8 @@ import UIKit
             }
             if delegate != nil {
                 delegate.RatingBar(self, didChangeValue: 5)
+                rateValue = 5
+
             }
             break
         default:
