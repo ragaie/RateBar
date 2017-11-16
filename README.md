@@ -4,6 +4,8 @@
 rating bar for iOS platform it is easy to use 
 you need to create view with this custom class view 
 create outlet of this class
+you can confirm protocal to listen to change in rate value.
+or you get rate value by  #  .rateValue
 
  ![alt tag](https://github.com/ragaie/RateBar/blob/master/Screen%20Shot%202017-11-06%20at%207.23.36%20PM.png)
  ![alt tag](https://github.com/ragaie/RateBar/blob/master/Screen%20Shot%202017-11-15%20at%201.56.50%20PM.png)
@@ -18,4 +20,5 @@ create outlet of this class
 
 # you use it  by cocaPod 
 
-pod 'RateBar', or  pod 'RateBar' , '~> 1.3' 
+pod repo update --verbose
+pod 'RateBar', or  pod 'RateBar' , '~> 1.3' , or  pod 'RateBar' , '~> 1.3.0' 
