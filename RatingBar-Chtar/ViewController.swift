@@ -4,7 +4,9 @@
 //
 //  Created by Ragaie alfy on 7/18/17.
 //  Copyright © 2017 Ragaie alfy. All rights reserved.
-//
+
+
+
 
 import UIKit
 
@@ -24,6 +26,8 @@ class ViewController: UIViewController,RatingBarDelegate {
         super.didReceiveMemoryWarning()
     }
 
+    
+    
     func RatingBar(_ ratingBar: RatingBar, didChangeValue value: Int) {
     
         
