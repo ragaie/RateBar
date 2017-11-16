@@ -11,6 +11,10 @@ you can confirm protocal to listen to change in rate value.
 
 or you get rate value by  #  .rateValue
 
+<iframe width="854" height="480" src="https://github.com/ragaie/RateBar/blob/master/rate%20bar.mov" frameborder="0" allowfullscreen></iframe>
+[![Watch the video](https://github.com/ragaie/RateBar/blob/master/rate%20bar.mov)](https://github.com/ragaie/RateBar/blob/master/rate%20bar.mov)
+
+
  ![alt tag](https://github.com/ragaie/RateBar/blob/master/Screen%20Shot%202017-11-06%20at%207.23.36%20PM.png)
  ![alt tag](https://github.com/ragaie/RateBar/blob/master/Screen%20Shot%202017-11-15%20at%201.56.50%20PM.png)
 
