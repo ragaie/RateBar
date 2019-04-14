@@ -55,10 +55,8 @@ func RatingBar(_ ratingBar: RatingBar, didChangeValue value: Int) {
 
  # 🎉  Congrats
 
- 🚀  RateBar (1.3.1) successfully published
- 📅  April 14th, 15:29
- 🌎  https://cocoapods.org/pods/RateBar
- 👍  Tell your friends!
+ 🚀  RateBar (1.3.1) successfully published<br />
+ 🌎  https://cocoapods.org/pods/RateBar<br />
 
 ## Author
 
