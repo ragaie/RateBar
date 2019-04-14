@@ -64,7 +64,7 @@ import UIKit
         // to make view fit view in design you welcome.
         view.frame = self.bounds
     
-        view.autoresizingMask = [UIViewAutoresizing.flexibleWidth, UIViewAutoresizing.flexibleHeight]
+        view.autoresizingMask = [UIView.AutoresizingMask.flexibleWidth, UIView.AutoresizingMask.flexibleHeight]
         // nib.contentView.frame = bounds
         
         allRatingButton = [rate1,rate2,rate3,rate4,rate5]
