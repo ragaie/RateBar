@@ -1,15 +1,44 @@
-# RateBar
-# can used it for show review of user, or get user review
+## RateBar
+ Can used it for show rating for some staff.<br />
+ Make user set rate for something.<br />
 
-rating bar for iOS platform it is easy to use 
 
-you need to create view with this custom class view 
 
-create outlet of this class
+# Let's start first by install cocoaPod
+ 
+   cd to your project folder 
+   ```
+   pod init
+   ```
+   Add to pod file for your target
+   ```
+   pod 'RateBar'
+   ```
+   ```
+   run pod update , or pod install
+   ```
 
-you can confirm protocal to listen to change in rate value.
 
-or you get rate value by  #  .rateValue
+## How to used it :
+Rating bar for iOS platform it is easy to use 
+
+1- Drag view in storyBorad, change it to (*RatingBar)
+
+2- Create outlet of this class
+```
+    @IBOutlet weak var ratingbar: RatingBar!
+```
+3- you can confirm protocal to listen to change in rate value.
+```
+RatingBarDelegate
+func RatingBar(_ ratingBar: RatingBar, didChangeValue value: Int) {
+        print(value)
+    }
+ ```
+4- set rate value by  #  .rateValue
+```
+        ratingbar.setRatingValue(rateValue: <#T##Double#>)
+```
 
 
  ![alt tag](https://github.com/ragaie/RateBar/blob/master/Screen%20Shot%202017-11-06%20at%207.23.36%20PM.png)
@@ -23,13 +52,14 @@ or you get rate value by  #  .rateValue
  ![alt tag](https://github.com/ragaie/RateBar/blob/master/Screen%20Shot%202017-11-06%20at%206.54.25%20PM.png)
 
 
-# you use it  by cocaPod 
 
-pod repo update --verbose 
+## Author
 
-pod 'RateBar', 
+* **Ragaie alfy Fahmey**  - [ragaie](https://github.com/ragaie)
 
-or  pod 'RateBar' , '~> 1.3.0' 
+## You can find me in linked in:- 
+- [Ragaie alfy](www.linkedin.com/in/ragaie-alfy)
+
 
 # MIT License
 
