@@ -18,6 +18,7 @@
 		8184F8791FB0D91900B4E9C2 /* LICENSE.MIT in Resources */ = {isa = PBXBuildFile; fileRef = 8184F8781FB0D91900B4E9C2 /* LICENSE.MIT */; };
 		8184F87B1FB0D97500B4E9C2 /* RatingBarDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8184F87A1FB0D97500B4E9C2 /* RatingBarDelegate.swift */; };
 		8184F87D1FB0DA7F00B4E9C2 /* RatingBar.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8184F87C1FB0DA7900B4E9C2 /* RatingBar.xib */; };
+		DF2FE6AF22636E6600CBD75C /* RateBar.podspec in Resources */ = {isa = PBXBuildFile; fileRef = DF2FE6AE22636E6600CBD75C /* RateBar.podspec */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		8184F87A1FB0D97500B4E9C2 /* RatingBarDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingBarDelegate.swift; sourceTree = "<group>"; };
 		8184F87C1FB0DA7900B4E9C2 /* RatingBar.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RatingBar.xib; sourceTree = "<group>"; };
 		81C0C54A1FBDB39000969BE8 /* rate bar.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = "rate bar.mov"; sourceTree = "<group>"; };
+		DF2FE6AE22636E6600CBD75C /* RateBar.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = RateBar.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 			isa = PBXGroup;
 			children = (
 				8184F8781FB0D91900B4E9C2 /* LICENSE.MIT */,
+				DF2FE6AE22636E6600CBD75C /* RateBar.podspec */,
 				816F90941F1E56360055D408 /* screen shot  */,
 				816F90891F1E50D90055D408 /* RatingBar */,
 				816F90761F1E50D40055D408 /* RatingBar-Chtar */,
@@ -171,6 +174,7 @@
 				8184F87D1FB0DA7F00B4E9C2 /* RatingBar.xib in Resources */,
 				815C56D91FBC636700787D7A /* Screen Shot 2017-11-15 at 1.56.50 PM.png in Resources */,
 				816F90821F1E50D40055D408 /* LaunchScreen.storyboard in Resources */,
+				DF2FE6AF22636E6600CBD75C /* RateBar.podspec in Resources */,
 				816F907F1F1E50D40055D408 /* Assets.xcassets in Resources */,
 				8184F8791FB0D91900B4E9C2 /* LICENSE.MIT in Resources */,
 				816F907D1F1E50D40055D408 /* Main.storyboard in Resources */,
