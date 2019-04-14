@@ -1,4 +1,4 @@
-## RateBar
+# RateBar
  Can used it for show rating for some staff.<br />
  Make user set rate for something.<br />
 
