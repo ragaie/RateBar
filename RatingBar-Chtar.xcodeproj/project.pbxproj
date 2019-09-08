@@ -1,0 +1,385 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		815C568B1FBC3C6D00787D7A /* RateBar.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 815C568A1FBC3C6D00787D7A /* RateBar.xcassets */; };
+		815C56D91FBC636700787D7A /* Screen Shot 2017-11-15 at 1.56.50 PM.png in Resources */ = {isa = PBXBuildFile; fileRef = 815C56D81FBC635B00787D7A /* Screen Shot 2017-11-15 at 1.56.50 PM.png */; };
+		816F90781F1E50D40055D408 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 816F90771F1E50D40055D408 /* AppDelegate.swift */; };
+		816F907A1F1E50D40055D408 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 816F90791F1E50D40055D408 /* ViewController.swift */; };
+		816F907D1F1E50D40055D408 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 816F907B1F1E50D40055D408 /* Main.storyboard */; };
+		816F907F1F1E50D40055D408 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 816F907E1F1E50D40055D408 /* Assets.xcassets */; };
+		816F90821F1E50D40055D408 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 816F90801F1E50D40055D408 /* LaunchScreen.storyboard */; };
+		8184F86C1FB0C85C00B4E9C2 /* RatingBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8184F86B1FB0C85B00B4E9C2 /* RatingBar.swift */; };
+		8184F8791FB0D91900B4E9C2 /* LICENSE.MIT in Resources */ = {isa = PBXBuildFile; fileRef = 8184F8781FB0D91900B4E9C2 /* LICENSE.MIT */; };
+		8184F87B1FB0D97500B4E9C2 /* RatingBarDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8184F87A1FB0D97500B4E9C2 /* RatingBarDelegate.swift */; };
+		8184F87D1FB0DA7F00B4E9C2 /* RatingBar.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8184F87C1FB0DA7900B4E9C2 /* RatingBar.xib */; };
+		DF2FE6AF22636E6600CBD75C /* RateBar.podspec in Resources */ = {isa = PBXBuildFile; fileRef = DF2FE6AE22636E6600CBD75C /* RateBar.podspec */; };
+		DF7C190123253B530071157B /* Screen Shot 2019-09-08 at 3.35.50 PM.png in Resources */ = {isa = PBXBuildFile; fileRef = DF7C190023253B530071157B /* Screen Shot 2019-09-08 at 3.35.50 PM.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		815C568A1FBC3C6D00787D7A /* RateBar.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = RateBar.xcassets; sourceTree = "<group>"; };
+		815C56D81FBC635B00787D7A /* Screen Shot 2017-11-15 at 1.56.50 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2017-11-15 at 1.56.50 PM.png"; sourceTree = "<group>"; };
+		816F90741F1E50D40055D408 /* RatingBar-Chtar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RatingBar-Chtar.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		816F90771F1E50D40055D408 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		816F90791F1E50D40055D408 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		816F907C1F1E50D40055D408 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		816F907E1F1E50D40055D408 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		816F90811F1E50D40055D408 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		816F90831F1E50D40055D408 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8184F86B1FB0C85B00B4E9C2 /* RatingBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingBar.swift; sourceTree = "<group>"; };
+		8184F8751FB0CB3C00B4E9C2 /* Screen Shot 2017-11-06 at 6.51.17 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2017-11-06 at 6.51.17 PM.png"; sourceTree = "<group>"; };
+		8184F8761FB0CB6100B4E9C2 /* Screen Shot 2017-11-06 at 6.54.25 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2017-11-06 at 6.54.25 PM.png"; sourceTree = "<group>"; };
+		8184F8771FB0D24100B4E9C2 /* Screen Shot 2017-11-06 at 7.23.36 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2017-11-06 at 7.23.36 PM.png"; sourceTree = "<group>"; };
+		8184F8781FB0D91900B4E9C2 /* LICENSE.MIT */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE.MIT; sourceTree = "<group>"; };
+		8184F87A1FB0D97500B4E9C2 /* RatingBarDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingBarDelegate.swift; sourceTree = "<group>"; };
+		8184F87C1FB0DA7900B4E9C2 /* RatingBar.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RatingBar.xib; sourceTree = "<group>"; };
+		81C0C54A1FBDB39000969BE8 /* rate bar.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = "rate bar.mov"; sourceTree = "<group>"; };
+		DF2FE6AE22636E6600CBD75C /* RateBar.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = RateBar.podspec; sourceTree = "<group>"; };
+		DF7C190023253B530071157B /* Screen Shot 2019-09-08 at 3.35.50 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2019-09-08 at 3.35.50 PM.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		816F90711F1E50D40055D408 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		816F906B1F1E50D40055D408 = {
+			isa = PBXGroup;
+			children = (
+				8184F8781FB0D91900B4E9C2 /* LICENSE.MIT */,
+				DF2FE6AE22636E6600CBD75C /* RateBar.podspec */,
+				816F90941F1E56360055D408 /* screen shot  */,
+				816F90891F1E50D90055D408 /* RatingBar */,
+				816F90761F1E50D40055D408 /* RatingBar-Chtar */,
+				816F90751F1E50D40055D408 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		816F90751F1E50D40055D408 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				816F90741F1E50D40055D408 /* RatingBar-Chtar.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		816F90761F1E50D40055D408 /* RatingBar-Chtar */ = {
+			isa = PBXGroup;
+			children = (
+				816F90771F1E50D40055D408 /* AppDelegate.swift */,
+				816F90791F1E50D40055D408 /* ViewController.swift */,
+				816F907B1F1E50D40055D408 /* Main.storyboard */,
+				816F907E1F1E50D40055D408 /* Assets.xcassets */,
+				816F90801F1E50D40055D408 /* LaunchScreen.storyboard */,
+				816F90831F1E50D40055D408 /* Info.plist */,
+			);
+			path = "RatingBar-Chtar";
+			sourceTree = "<group>";
+		};
+		816F90891F1E50D90055D408 /* RatingBar */ = {
+			isa = PBXGroup;
+			children = (
+				8184F87C1FB0DA7900B4E9C2 /* RatingBar.xib */,
+				8184F86B1FB0C85B00B4E9C2 /* RatingBar.swift */,
+				8184F87A1FB0D97500B4E9C2 /* RatingBarDelegate.swift */,
+				815C568A1FBC3C6D00787D7A /* RateBar.xcassets */,
+			);
+			name = RatingBar;
+			sourceTree = "<group>";
+		};
+		816F90941F1E56360055D408 /* screen shot  */ = {
+			isa = PBXGroup;
+			children = (
+				81C0C54A1FBDB39000969BE8 /* rate bar.mov */,
+				815C56D81FBC635B00787D7A /* Screen Shot 2017-11-15 at 1.56.50 PM.png */,
+				8184F8771FB0D24100B4E9C2 /* Screen Shot 2017-11-06 at 7.23.36 PM.png */,
+				8184F8761FB0CB6100B4E9C2 /* Screen Shot 2017-11-06 at 6.54.25 PM.png */,
+				8184F8751FB0CB3C00B4E9C2 /* Screen Shot 2017-11-06 at 6.51.17 PM.png */,
+				DF7C190023253B530071157B /* Screen Shot 2019-09-08 at 3.35.50 PM.png */,
+			);
+			name = "screen shot ";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		816F90731F1E50D40055D408 /* RatingBar-Chtar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 816F90861F1E50D40055D408 /* Build configuration list for PBXNativeTarget "RatingBar-Chtar" */;
+			buildPhases = (
+				816F90701F1E50D40055D408 /* Sources */,
+				816F90711F1E50D40055D408 /* Frameworks */,
+				816F90721F1E50D40055D408 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "RatingBar-Chtar";
+			productName = "RatingBar-Chtar";
+			productReference = 816F90741F1E50D40055D408 /* RatingBar-Chtar.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		816F906C1F1E50D40055D408 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Ragaie alfy";
+				TargetAttributes = {
+					816F90731F1E50D40055D408 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = 8Z3K9T9U74;
+						LastSwiftMigration = 1020;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 816F906F1F1E50D40055D408 /* Build configuration list for PBXProject "RatingBar-Chtar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 816F906B1F1E50D40055D408;
+			productRefGroup = 816F90751F1E50D40055D408 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				816F90731F1E50D40055D408 /* RatingBar-Chtar */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		816F90721F1E50D40055D408 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				815C568B1FBC3C6D00787D7A /* RateBar.xcassets in Resources */,
+				8184F87D1FB0DA7F00B4E9C2 /* RatingBar.xib in Resources */,
+				DF7C190123253B530071157B /* Screen Shot 2019-09-08 at 3.35.50 PM.png in Resources */,
+				815C56D91FBC636700787D7A /* Screen Shot 2017-11-15 at 1.56.50 PM.png in Resources */,
+				816F90821F1E50D40055D408 /* LaunchScreen.storyboard in Resources */,
+				DF2FE6AF22636E6600CBD75C /* RateBar.podspec in Resources */,
+				816F907F1F1E50D40055D408 /* Assets.xcassets in Resources */,
+				8184F8791FB0D91900B4E9C2 /* LICENSE.MIT in Resources */,
+				816F907D1F1E50D40055D408 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		816F90701F1E50D40055D408 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8184F86C1FB0C85C00B4E9C2 /* RatingBar.swift in Sources */,
+				816F907A1F1E50D40055D408 /* ViewController.swift in Sources */,
+				816F90781F1E50D40055D408 /* AppDelegate.swift in Sources */,
+				8184F87B1FB0D97500B4E9C2 /* RatingBarDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		816F907B1F1E50D40055D408 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				816F907C1F1E50D40055D408 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		816F90801F1E50D40055D408 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				816F90811F1E50D40055D408 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		816F90841F1E50D40055D408 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		816F90851F1E50D40055D408 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		816F90871F1E50D40055D408 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8Z3K9T9U74;
+				INFOPLIST_FILE = "RatingBar-Chtar/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Chtar.RatingBar-Chtar";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		816F90881F1E50D40055D408 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8Z3K9T9U74;
+				INFOPLIST_FILE = "RatingBar-Chtar/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Chtar.RatingBar-Chtar";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		816F906F1F1E50D40055D408 /* Build configuration list for PBXProject "RatingBar-Chtar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				816F90841F1E50D40055D408 /* Debug */,
+				816F90851F1E50D40055D408 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		816F90861F1E50D40055D408 /* Build configuration list for PBXNativeTarget "RatingBar-Chtar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				816F90871F1E50D40055D408 /* Debug */,
+				816F90881F1E50D40055D408 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 816F906C1F1E50D40055D408 /* Project object */;
+}
