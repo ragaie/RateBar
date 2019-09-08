@@ -6,19 +6,11 @@
 //  Copyright © 2017 Ragaie alfy. All rights reserved.
 //
 
-
-//https://github.com/ragaie/RateBar.git
-
 import UIKit
-
-
-
 
 @IBDesignable open class RatingBar: UIView {
     
-    
     @IBOutlet weak var rate1: UIButton!
-    
     @IBOutlet weak var rate2: UIButton!
     @IBOutlet weak var rate3: UIButton!
     
@@ -29,12 +21,6 @@ import UIKit
     
     public var delegate : RatingBarDelegate!
     public var rateValue : Int! = 0
-    //    private var rateImage : UIImage! //=  UIImage.init(named: "star3")
-    //    private var halfrateImage : UIImage! //=  UIImage.init(named: "star2")
-    //    
-    //    // private var unrateImage : UIImage! //=  UIImage.init(named: "star1")
-    //    
-    //    
     private var allRatingButton : [UIButton]! = []
     @IBInspectable public var rateImage: UIImage?{
         didSet {
