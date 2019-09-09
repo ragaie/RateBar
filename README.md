@@ -1,6 +1,12 @@
 # RateBar
  Can used it for show rating for some staff.<br />
  Make user set rate for something.<br />
+ 
+ # what is new?
+ 
+ Update for swift 5.<br />
+ Add new feature to change image icon of rating bar for rate image and unrated image.<br />
+ Enhance behavior for selecting in ratingBar, you can select each one and deselect for last one rate star..<br />
 
 
 
