@@ -233,7 +233,7 @@ import UIKit
                         allRatingButton[i].setBackgroundImage(unrateImage, for: .normal)
                         allRatingButton[i].tag = 0
                     }
-                    callDelegate(value: 2)
+                    callDelegate(value: 3)
                     
                 }
                 else{
@@ -258,7 +258,7 @@ import UIKit
                 allRatingButton[4].setBackgroundImage(unrateImage, for: .normal)
                 allRatingButton[4].tag = 0
                 
-                callDelegate(value: 5)
+                callDelegate(value: 4)
             }
             break
         default:

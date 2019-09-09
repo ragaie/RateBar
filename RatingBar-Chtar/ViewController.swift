@@ -18,7 +18,7 @@ class ViewController: UIViewController,RatingBarDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
     
-       ratingbar.setRatingValue(rateValue: 1.5)
+     //  ratingbar.setRatingValue(rateValue: 1.5)
         ratingbar.delegate = self
     }
 
