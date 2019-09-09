@@ -20,6 +20,7 @@
 		8184F87D1FB0DA7F00B4E9C2 /* RatingBar.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8184F87C1FB0DA7900B4E9C2 /* RatingBar.xib */; };
 		DF2FE6AF22636E6600CBD75C /* RateBar.podspec in Resources */ = {isa = PBXBuildFile; fileRef = DF2FE6AE22636E6600CBD75C /* RateBar.podspec */; };
 		DF7C190123253B530071157B /* Screen Shot 2019-09-08 at 3.35.50 PM.png in Resources */ = {isa = PBXBuildFile; fileRef = DF7C190023253B530071157B /* Screen Shot 2019-09-08 at 3.35.50 PM.png */; };
+		DFFA9BCD2326617600333435 /* ratingBar Screen Recording.mov in Resources */ = {isa = PBXBuildFile; fileRef = DFFA9BCC2326617600333435 /* ratingBar Screen Recording.mov */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,9 +40,9 @@
 		8184F8781FB0D91900B4E9C2 /* LICENSE.MIT */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE.MIT; sourceTree = "<group>"; };
 		8184F87A1FB0D97500B4E9C2 /* RatingBarDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingBarDelegate.swift; sourceTree = "<group>"; };
 		8184F87C1FB0DA7900B4E9C2 /* RatingBar.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RatingBar.xib; sourceTree = "<group>"; };
-		81C0C54A1FBDB39000969BE8 /* rate bar.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = "rate bar.mov"; sourceTree = "<group>"; };
 		DF2FE6AE22636E6600CBD75C /* RateBar.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = RateBar.podspec; sourceTree = "<group>"; };
 		DF7C190023253B530071157B /* Screen Shot 2019-09-08 at 3.35.50 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2019-09-08 at 3.35.50 PM.png"; sourceTree = "<group>"; };
+		DFFA9BCC2326617600333435 /* ratingBar Screen Recording.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = "ratingBar Screen Recording.mov"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,7 +103,7 @@
 		816F90941F1E56360055D408 /* screen shot  */ = {
 			isa = PBXGroup;
 			children = (
-				81C0C54A1FBDB39000969BE8 /* rate bar.mov */,
+				DFFA9BCC2326617600333435 /* ratingBar Screen Recording.mov */,
 				815C56D81FBC635B00787D7A /* Screen Shot 2017-11-15 at 1.56.50 PM.png */,
 				8184F8771FB0D24100B4E9C2 /* Screen Shot 2017-11-06 at 7.23.36 PM.png */,
 				8184F8761FB0CB6100B4E9C2 /* Screen Shot 2017-11-06 at 6.54.25 PM.png */,
@@ -182,6 +183,7 @@
 				816F907F1F1E50D40055D408 /* Assets.xcassets in Resources */,
 				8184F8791FB0D91900B4E9C2 /* LICENSE.MIT in Resources */,
 				816F907D1F1E50D40055D408 /* Main.storyboard in Resources */,
+				DFFA9BCD2326617600333435 /* ratingBar Screen Recording.mov in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

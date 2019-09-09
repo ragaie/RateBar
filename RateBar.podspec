@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   s.platform = :ios
   s.name             = 'RateBar'
-  s.version          = '1.3.1'
+  s.version          = '1.3.2'
   s.summary          = ' Simple rating bar for iOS application available for iPhone and iPad  '
  
   s.description      = <<-DESC
@@ -22,6 +22,6 @@ Simple rating bar for iOS application available for iPhone and iPad  . Easy to u
   s.resources = 'RateBar.xcassets','RatingBar.xib'
 
   s.resource_bundle = {'RateBar' => ['RateBar.xcassets','RatingBar.xib']}
-
+ s.swift_versions = "5.0"
   
 end
